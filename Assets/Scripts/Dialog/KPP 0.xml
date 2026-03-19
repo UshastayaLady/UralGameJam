@@ -1,0 +1,53 @@
+<xmlDialogue>
+	<node>
+		<npcText>
+			Отключили электричество,
+			в комнате зажгли свечу.
+			Там, в окне, его величество
+			белый снег. А выше, чу,
+
+			зодиака знаки яркие,
+			как лилейники, цветут,
+			как твои объятья жаркие
+			на Египетском мосту.
+
+			А на въезде где-то в Гатчине
+			ветер лютый, фонари.
+			Мир, слезами обозначенный,
+			всё гундосит: «Не умри!»
+
+			Жить — смешное
+			приключение
+			непонятно для чего:
+			только вечное вращение,
+			праздник, гости с ночевой.
+		</npcText>
+		<answers>
+			<answer toNode = "0">
+				<text>
+					safd
+				</text>							
+			</answer>
+			<answer toNode = "1">
+				<text>
+					sdsdsadsadsadsadsadsadsadsads
+					sadsadsadsadsadsad
+					sadsadsad
+					asdsadsadsadsad
+				</text>
+			</answer>
+		</answers>
+	</node>
+	
+	
+	<node>
+		<npcText> Назовите свою Имя и Фамилию и предоставьте документы.</npcText>
+		<answers>
+			<answer toNode = "0">
+				<text> Меня зовут ... </text>
+				<nextDialogue>true</nextDialogue>
+				<nextNumberDialogue>2</nextNumberDialogue>
+			</answer>
+		</answers>
+	</node>
+</xmlDialogue>
