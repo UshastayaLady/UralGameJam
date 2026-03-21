@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\UnityProgect\\UralGameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\rigidbodymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rigidbodymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialog\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialog\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialog\\DialogueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +35,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadMe.txt",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ReadMe.txt",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadMe.txt",
-              "RelativeToolTip": "Assets\\Scripts\\Dialog\\ReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-12T13:24:22.59Z",
+              "Title": "RigidbodyMove.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\RigidbodyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RigidbodyMove.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\RigidbodyMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RigidbodyMove.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T19:07:36.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadMe.txt",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ReadMe.txt",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadMe.txt",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\ReadMe.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-12T13:24:22.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\Dialogue.cs",
@@ -51,12 +66,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\Dialogue.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T13:23:27.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T13:23:27.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InstantiateDialogue.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
@@ -64,12 +78,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
               "ViewState": "AQIAAFoAAAAAAAAAAAAwwHwAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T13:18:55.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T13:18:55.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\DialogueManager.cs",
@@ -77,8 +90,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\DialogueManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T13:18:18.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T13:18:18.748Z"
             }
           ]
         }
