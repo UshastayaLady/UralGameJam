@@ -10,7 +10,7 @@ public class AnimatiorPlayer : MonoBehaviour
     }
     private void OnEnable()
     {
-        PlayerInput.PlayerMoved += MoveAnimatin;
+        InputPlayer.PlayerMoved += MoveAnimatin;
     }
     private void MoveAnimatin(float directionX, float directionY)
     {
@@ -18,6 +18,6 @@ public class AnimatiorPlayer : MonoBehaviour
     }
     private void OnDisable()
     {
-        PlayerInput.PlayerMoved -= MoveAnimatin;
+        InputPlayer.PlayerMoved -= MoveAnimatin;
     }
 }

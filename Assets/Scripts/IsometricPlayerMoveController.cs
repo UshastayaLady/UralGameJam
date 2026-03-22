@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -8,22 +7,41 @@ public class IsometricPlayerMoveController : MonoBehaviour
     private Rigidbody2D rigbody2D; 
 
     [SerializeField] private float speedGo = 3;
-    
+
+    [Header("Scale by Y position")]
+    [SerializeField] private float minY = -5f;      // самая нижняя позиция (близко к камере)
+    [SerializeField] private float maxY = 5f;       // самая верхняя позиция (далеко от камеры)
+    [SerializeField] private float maxScale = 1.5f; // масштаб, когда близко (Y = minY)
+    [SerializeField] private float minScale = 0.5f; // масштаб, когда далеко (Y = maxY)
     void Awake()
     {
         rigbody2D = GetComponent<Rigidbody2D>();
     }
     private void OnEnable()
     {
-        PlayerInput.PlayerMoved += Move;
+        InputPlayer.PlayerMoved += Move;
     }
     private void Move(float directionX, float directionY)
     {
-        rigbody2D.linearVelocityX = directionX * speedGo;
-        rigbody2D.linearVelocityY = directionY * speedGo;
+        rigbody2D.linearVelocityX = directionX * speedGo * Time.fixedDeltaTime;
+        rigbody2D.linearVelocityY = directionY * speedGo * Time.fixedDeltaTime;
+        MoveScele();
     }
+
+    private void MoveScele()
+    {
+        // Нормализуем Y в диапазон [minY, maxY] -> получаем t от 0 до 1
+        // t = 0 при Y = minY (близко), t = 1 при Y = maxY (далеко)
+        float t = Mathf.InverseLerp(minY, maxY, transform.position.y);
+
+        // Масштаб
+        float newScale = Mathf.Lerp(maxScale, minScale, t);
+                
+        transform.localScale = new Vector3(newScale, newScale, transform.localScale.z);
+    }
+
     private void OnDisable()
     {
-        PlayerInput.PlayerMoved -= Move;
+        InputPlayer.PlayerMoved -= Move;
     }
 }
