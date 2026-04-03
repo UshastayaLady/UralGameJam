@@ -14,7 +14,8 @@ public class AnimatiorPlayer : MonoBehaviour
     }
     private void MoveAnimatin(float directionX, float directionY)
     {
-        
+        animator.SetFloat("directionY", directionY);
+        animator.SetFloat("directionX", directionX);
     }
     private void OnDisable()
     {

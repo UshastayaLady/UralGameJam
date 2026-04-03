@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\UnityProgect\\UralGameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AnimatorPlayer.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\AnimatorPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorPlayer.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\AnimatorPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimatorPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T22:18:17.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IsometricPlayerMoveController.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\IsometricPlayerMoveController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IsometricPlayerMoveController.cs",
               "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\IsometricPlayerMoveController.cs",
               "RelativeToolTip": "Assets\\Scripts\\IsometricPlayerMoveController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBIAAAAjAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwC4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T19:56:02.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InputPlayer.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\InputPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputPlayer.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Assets\\Scripts\\InputPlayer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T19:55:14.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T19:55:14.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ObjectLayerController.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\ObjectLayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectLayerController.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectLayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T19:02:07.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T19:02:07.419Z"
             }
           ]
         }
