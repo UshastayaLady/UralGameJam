@@ -16,6 +16,7 @@ public class IsometricPlayerMoveController : MonoBehaviour
     void Awake()
     {
         rigbody2D = GetComponent<Rigidbody2D>();
+        rigbody2D.gravityScale = 0;
     }
     private void OnEnable()
     {
@@ -23,12 +24,12 @@ public class IsometricPlayerMoveController : MonoBehaviour
     }
     private void Move(float directionX, float directionY)
     {
-        rigbody2D.linearVelocityX = directionX * speedGo * Time.fixedDeltaTime;
-        rigbody2D.linearVelocityY = directionY * speedGo * Time.fixedDeltaTime;
-        MoveScele();
+        rigbody2D.linearVelocityX = directionX * speedGo;
+        rigbody2D.linearVelocityY = directionY * speedGo;
+        UpdateScale();
     }
 
-    private void MoveScele()
+    private void UpdateScale()
     {
         // Нормализуем Y в диапазон [minY, maxY] -> получаем t от 0 до 1
         // t = 0 при Y = minY (близко), t = 1 при Y = maxY (далеко)
