@@ -6,7 +6,7 @@ public class SetActivObject : MonoBehaviour, ITriggerZone
 
     private void ActivationInteractiveZone()
     {
-        activeObject.SetActive(true);
+        activeObject.SetActive(!activeObject.activeSelf);
     }
     public void OnEnter()
     {

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\UnityProgect\\UralGameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\player\\freezplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\freezplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\setactivobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\triggerzone\\setactivobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\setactivobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\playertriggerlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,19 +59,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FreezPlayer.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\FreezPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\FreezPlayer.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\FreezPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\FreezPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:30:52.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IsometricPlayerMoveController.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
               "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAFAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T13:11:09.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AnimatorPlayer.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\AnimatorPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\AnimatorPlayer.cs",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\AnimatorPlayer.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAmwBoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T13:09:07.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T13:09:07.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerTriggerListener.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
@@ -92,19 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SetActivObject.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
               "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:57:19.25Z"
+              "WhenOpened": "2026-04-05T11:57:19.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ITriggerZone.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ObjectLayerController.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
@@ -128,19 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InputPlayer.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\InputPlayer.cs",
               "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\InputPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T22:46:45.074Z"
+              "WhenOpened": "2026-04-04T22:46:45.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DragUIObject.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\DragUIObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragUIObject.cs",
@@ -152,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UIClose.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIClose.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIClose.cs",
@@ -164,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UIGoBack.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIGoBack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIGoBack.cs",
