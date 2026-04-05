@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SetActivObject : MonoBehaviour, ITriggerZone
+public class SetActivObject : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExit
 {
     [SerializeField] private GameObject [] _activeObjects;
 

@@ -15,7 +15,7 @@ public class InstantiateDialogue : MonoBehaviour
     public event Action DelledAnswersButtons;
     public event Action Finished;    
 
-    private TextAsset ta;
+    [SerializeField] private TextAsset ta;
     private int currentNode = 0;
 
     #endregion
@@ -29,11 +29,11 @@ public class InstantiateDialogue : MonoBehaviour
     {
         if (ta!=null)
         {            
-            CleanDialogue();
-            ta = textAsset;
-            xmlDialogue = ReadXmlDialogue.Load(ta);                      
-            WriteText();
-        }                   
+            CleanDialogue();            
+        }
+        ta = textAsset;
+        xmlDialogue = ReadXmlDialogue.Load(ta);
+        WriteText();
     }        
    
     private void WriteText()

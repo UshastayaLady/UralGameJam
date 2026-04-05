@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectLayerController : MonoBehaviour, ITriggerZone
+public class ObjectLayerController : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExit
 {   
     public void OnEnter()
     {

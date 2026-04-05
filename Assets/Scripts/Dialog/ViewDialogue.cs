@@ -42,6 +42,12 @@ public class ViewDialogue : MonoBehaviour
     private void WriteAnswer(string answer, int idButton)
     {
         FindPool buttonAnswer = poolObject.GetObgectInPool();
+        if (buttonAnswer == null)
+        {
+            Debug.LogError("Не удалось получить кнопку из пула!");
+            return;
+        }
+
         try
         {
             Text answerText = buttonAnswer.GetComponentInChildren<Text>();
@@ -65,6 +71,9 @@ public class ViewDialogue : MonoBehaviour
         {
             Debug.LogError("NullReferenceException в buttonAnswer отсутствует компонент AnswerClick: " + ex.Message);
         }
+
+        // Обновляем размер контейнера ответов, чтобы вместить все кнопки
+        UpdateAnswersContentSize();
     }
 
     private void DelAnswer()
@@ -81,6 +90,40 @@ public class ViewDialogue : MonoBehaviour
                 Debug.LogError("NullReferenceException в buttonAnswer отсутствует компонент Text: " + ex.Message);
             }
             poolObject.PutObgectInPool(buttons[i]);
+        }
+        ResetAnswersContentSize();
+    }
+
+    // Обновляет высоту контейнера ответов в зависимости от количества дочерних кнопок
+    private void UpdateAnswersContentSize()
+    {
+        if (answersScrollContent == null) return;
+
+        // Суммируем высоту всех дочерних объектов
+        float totalHeight = 0f;
+        foreach (RectTransform child in answersScrollContent)
+        {
+            if (child.gameObject.activeSelf)
+                totalHeight += child.rect.height;
+        }
+
+        // Добавляем небольшой отступ снизу
+        totalHeight += 20f;
+
+        // Устанавливаем новую высоту контейнера
+        answersScrollContent.sizeDelta = new Vector2(answersScrollContent.sizeDelta.x, totalHeight);
+
+        // Принудительно обновляем Canvas
+        Canvas.ForceUpdateCanvases();
+    }
+
+    // Сбрасывает высоту контейнера ответов (когда нет кнопок)
+    private void ResetAnswersContentSize()
+    {
+        if (answersScrollContent != null)
+        {
+            answersScrollContent.sizeDelta = new Vector2(answersScrollContent.sizeDelta.x, 0f);
+            Canvas.ForceUpdateCanvases();
         }
     }
 

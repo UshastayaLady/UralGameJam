@@ -13,12 +13,13 @@ public class ListDialogue : MonoBehaviour
     {
         instantiateDialogue = FindAnyObjectByType<InstantiateDialogue>();
         dialogueManager = FindAnyObjectByType<ManagerDialogue>();
+        indexTA = 0;
     }
     private void OnEnable()
     {
         instantiateDialogue.NextDialogue += NextIndexDialogue;
     }
-    private void SendAndStartDialogue()
+    public void SendAndStartDialogue()
     {
         dialogueManager.OpenWindos(dealogues[indexTA]);
     }
@@ -45,4 +46,5 @@ public class ListDialogue : MonoBehaviour
         instantiateDialogue.NextDialogue -= NextIndexDialogue;
     }
 
+   
 }
