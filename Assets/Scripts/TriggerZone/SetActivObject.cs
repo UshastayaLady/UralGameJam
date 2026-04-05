@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class SetActivObject : MonoBehaviour, ITriggerZone
 {
-    [SerializeField] private GameObject activeObject;
+    [SerializeField] private GameObject [] _activeObjects;
 
     private void ActivationInteractiveZone()
     {
-        activeObject.SetActive(!activeObject.activeSelf);
+        for (int i = 0; i < _activeObjects.Length; i++) 
+        {
+            _activeObjects[i].SetActive(!_activeObjects[i].activeSelf);
+        }        
     }
     public void OnEnter()
     {
