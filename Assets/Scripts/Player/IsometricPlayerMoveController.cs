@@ -1,12 +1,13 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class IsometricPlayerMoveController : MonoBehaviour
 {
     private Rigidbody2D rigbody2D; 
 
-    [SerializeField] private float speedGo = 3;
+    [SerializeField] private float speedGoY = 3;
+    [SerializeField] private float speedGoX = 4;
 
     [Header("Scale by Y position")]
     [SerializeField] private float minY = -5f;      // самая нижняя позиция (близко к камере)
@@ -24,8 +25,8 @@ public class IsometricPlayerMoveController : MonoBehaviour
     }
     private void Move(float directionX, float directionY)
     {
-        rigbody2D.linearVelocityX = directionX * speedGo;
-        rigbody2D.linearVelocityY = directionY * speedGo;
+        rigbody2D.linearVelocityX = directionX * speedGoX;
+        rigbody2D.linearVelocityY = directionY * speedGoY;
         UpdateScale();
     }
 

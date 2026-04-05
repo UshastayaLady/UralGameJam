@@ -1,17 +1,14 @@
 using UnityEngine;
 
-public class ObjectLayerController : MonoBehaviour
-{
-    private void OnTriggerEnter2D(Collider2D collision)
+public class ObjectLayerController : MonoBehaviour, ITriggerZone
+{   
+    public void OnEnter()
     {
-        if (collision.tag == "Player")
-            transform.position -= new Vector3(0, 0, 2);
-
+        transform.position -= new Vector3(0, 0, 2);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    public void OnExit()
     {
-        if (collision.tag == "Player")
-            transform.position += new Vector3(0, 0, 2);
+        transform.position += new Vector3(0, 0, 2);
     }
 }
