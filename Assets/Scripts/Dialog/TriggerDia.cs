@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class TriggerDia : MonoBehaviour, ITriggerZoneEnter
-{    
+public class TriggerDia : SetActivObject
+{   
     private ListDialogue _listDialogue;
     private void Awake()
     {
         _listDialogue = GetComponent<ListDialogue>();
     }
-    public void OnEnter()
+
+    protected override void ActivationInteractiveZone()
     {
         _listDialogue.SendAndStartDialogue();
     }

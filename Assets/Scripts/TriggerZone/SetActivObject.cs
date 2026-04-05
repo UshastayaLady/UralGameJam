@@ -4,7 +4,7 @@ public class SetActivObject : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExit
 {
     [SerializeField] private GameObject [] _activeObjects;
 
-    private void ActivationInteractiveZone()
+    protected virtual void ActivationInteractiveZone()
     {
         for (int i = 0; i < _activeObjects.Length; i++) 
         {
@@ -24,5 +24,5 @@ public class SetActivObject : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExit
     private void OnDisable()
     {
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
-    }
+    }    
 }
