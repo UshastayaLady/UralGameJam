@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>У меня было фирменное блюдо. До всей этой дряни. Люди приезжали за ним с другого конца города.</npcText>
+    <answers>
+      <answer toNode="1"><text>И что это было?</text></answer>
+      <answer toNode="1"><text>Ты скучаешь по этому?</text></answer>
+      <answer toNode="2"><text>Не похож на человека, который любил славу.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Томлёная говядина с печёным луком и густым соусом на красном вине. Ничего магического. Просто блюдо, которое требовало терпения. А терпение — редкая вещь и на кухне, и в жизни.</npcText>
+    <answers>
+      <answer toNode="2"><text>Звучит слишком нормально для этого места.</text></answer>
+      <answer toNode="2"><text>Ты сам придумал рецепт?</text></answer>
+      <answer toNode="3"><text>Кто научил тебя готовить так?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Вот именно поэтому я его и любил. Пока все вокруг гнались за чудом, у меня было блюдо, которое нельзя ускорить. Если поторопишься — испортишь. Оно напоминало, что не всё в мире обязано подчиняться приказу.</npcText>
+    <answers>
+      <answer toNode="3"><text>Красиво сказано.</text></answer>
+      <answer toNode="3"><text>Похоже, ты готовил назло этому месту.</text></answer>
+      <answer toNode="4"><text>И кто тебя научил?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Отец. Он не был шефом, просто умел ждать. Говорил, что хорошая еда не любит суеты и лжи. Забавно, что я понял его по-настоящему только здесь, когда вокруг стало слишком много и того, и другого.</npcText>
+    <answers>
+      <answer toNode="4"><text>Ты часто его вспоминаешь?</text></answer>
+      <answer toNode="4"><text>Теперь понятно, почему ты такой упрямый.</text></answer>
+      <answer toNode="4"><text>Мне нравится эта история.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Хорошо, что хоть кто-то ещё может назвать её просто историей, а не уликой.</npcText>
+    <answers>
+      <answer toNode="0"><text>Спасибо, Марк.</text><end>true</end></answer>
+      <answer toNode="0"><text>Когда выберемся, я это приготовлю.</text><end>true</end></answer>
+      <answer toNode="0"><text>Пойдём дальше.</text><end>true</end></answer>
+    </answers>
+  </node>
+</xmlDialogue>

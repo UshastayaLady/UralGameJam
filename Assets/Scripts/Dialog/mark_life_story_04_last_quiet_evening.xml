@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>Была одна последняя спокойная смена. Теперь думаю о ней чаще, чем о самой катастрофе.</npcText>
+    <answers>
+      <answer toNode="1"><text>Что в ней было особенного?</text></answer>
+      <answer toNode="1"><text>Почему именно она?</text></answer>
+      <answer toNode="2"><text>Спокойные вещи запоминаются сильнее?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Ничего особенного. Вот в этом и дело. Шёл дождь. В зале спорила какая-то пара. Мой младший повар пересолил соус и трижды соврал, что это не он. А я ворчал и был уверен, что завтра будет точно таким же.</npcText>
+    <answers>
+      <answer toNode="2"><text>И это был последний нормальный день.</text></answer>
+      <answer toNode="2"><text>Ты скучаешь по этой обычности.</text></answer>
+      <answer toNode="3"><text>Что стало с тем поваром?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Да. Человек плохо ценит обыденность, пока её не вырвут у него из рук. Мне не снится смерть, Лея. Мне снится дождь за окнами и чужой пересоленный соус.</npcText>
+    <answers>
+      <answer toNode="3"><text>Это даже грустнее.</text></answer>
+      <answer toNode="3"><text>Ты помнишь всех, кто тогда работал?</text></answer>
+      <answer toNode="4"><text>Наверное, поэтому это место так цепляется за распорядок.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Не всех. И это злит больше всего. Память у мёртвых странная: самые важные лица тускнеют, а всякая мелочь остаётся навсегда. Будто наказание за то, что не успел запомнить главное.</npcText>
+    <answers>
+      <answer toNode="4"><text>Ты не виноват в этом.</text></answer>
+      <answer toNode="4"><text>Память и у живых жестокая.</text></answer>
+      <answer toNode="4"><text>Но ты хотя бы помнишь достаточно. </text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Достаточно, чтобы ненавидеть это место. И достаточно, чтобы хотеть его наконец-то остановить.</npcText>
+    <answers>
+      <answer toNode="0"><text>Тогда остановим.</text><end>true</end></answer>
+      <answer toNode="0"><text>Я с тобой.</text><end>true</end></answer>
+      <answer toNode="0"><text>Пошли дальше.</text><end>true</end></answer>
+    </answers>
+  </node>
+</xmlDialogue>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>Марк: Я уже сказал достаточно. Кухня не любит, когда о ней болтают слишком долго. Если хочешь помочь — слушай, как ведёт себя это место.</npcText>
+    <answers>
+      <answer toNode="1">
+        <text>Ты больше ничего не расскажешь?</text>
+      </answer>
+      <answer toNode="2">
+        <text>Мне всё ещё не по себе рядом с тобой.</text>
+      </answer>
+      <answer toNode="3">
+        <text>Ладно. Я вернусь позже.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Марк: Расскажу, когда ты принесёшь что-то важнее вопросов. Найди следы в зале или в кабинете. Тогда и поговорим.</npcText>
+    <answers>
+      <answer toNode="0">
+        <text>Понятно.</text>
+        <end>true</end>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Марк: Это взаимно. Но пока кухня терпит тебя, я тоже потерплю.</npcText>
+    <answers>
+      <answer toNode="0">
+        <text>Очень обнадёживает.</text>
+        <end>true</end>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Марк: Возвращайся. Я никуда не денусь. В моём случае это не метафора.</npcText>
+    <answers>
+      <answer toNode="0">
+        <text>...Ладно.</text>
+        <end>true</end>
+      </answer>
+    </answers>
+  </node>
+</xmlDialogue>

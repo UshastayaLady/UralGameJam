@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>Знаешь, что смешно? Когда я пришёл сюда впервые, я был уверен, что задержусь на неделю. Не больше.</npcText>
+    <answers>
+      <answer toNode="1"><text>Почему так мало?</text></answer>
+      <answer toNode="1"><text>Не понравилось место?</text></answer>
+      <answer toNode="2"><text>И всё же остался.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Ресторан тогда был слишком тихим для такого большого зала. Красивый, дорогой, вылизанный до блеска. Я подумал: здесь либо платят хорошо, либо скоро начнут врать. Оказалось — и то, и другое.</npcText>
+    <answers>
+      <answer toNode="2"><text>Что тебя удержало?</text></answer>
+      <answer toNode="2"><text>Ты сразу стал шефом?</text></answer>
+      <answer toNode="2"><text>То есть первое впечатление было плохим?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Из-за кухни. Она была идеальной. Слишком жаркая, слишком быстрая, слишком послушная. Для повара это как услышать музыку, которую никто кроме тебя не замечает. Я решил, что наконец-то нашёл место, где могу делать всё правильно.</npcText>
+    <answers>
+      <answer toNode="3"><text>И ты влюбился в работу.</text></answer>
+      <answer toNode="3"><text>Когда понял, что что-то не так?</text></answer>
+      <answer toNode="3"><text>Жалеешь, что остался?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Сначала — нет. Тогда это было лучшее решение в моей жизни. А потом ресторан показал, почему здесь всё выходит слишком гладко. Некоторые места сначала дают тебе мечту, чтобы потом было больнее её отнимать.</npcText>
+    <answers>
+      <answer toNode="4"><text>Ты часто об этом вспоминаешь?</text></answer>
+      <answer toNode="4"><text>Похоже, ты правда любил эту кухню.</text></answer>
+      <answer toNode="4"><text>И всё началось с первого дня.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Каждую ночь. Не первый ужас. Первый день. Он всегда возвращается раньше.</npcText>
+    <answers>
+      <answer toNode="0"><text>Хватит об этом.</text><end>true</end></answer>
+      <answer toNode="0"><text>Спасибо, что рассказал.</text><end>true</end></answer>
+      <answer toNode="0"><text>Я запомню.</text><end>true</end></answer>
+    </answers>
+  </node>
+</xmlDialogue>

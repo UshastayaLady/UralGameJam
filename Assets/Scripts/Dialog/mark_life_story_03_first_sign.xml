@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>Хочешь знать, когда я испугался по-настоящему? Не в ночь катастрофы. Раньше.</npcText>
+    <answers>
+      <answer toNode="1"><text>Когда именно?</text></answer>
+      <answer toNode="1"><text>Ты уже тогда всё понял?</text></answer>
+      <answer toNode="2"><text>Что тебя выдало?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>После закрытия. Я остался один на кухне, ругался из-за завала посуды и ушёл в кладовую за солью. Вернулся — ножи были вымыты, разложены по размеру, а плита убавлена ровно так, как сделал бы я сам.</npcText>
+    <answers>
+      <answer toNode="2"><text>Может, кто-то из поваров помог?</text></answer>
+      <answer toNode="2"><text>И никого не было рядом?</text></answer>
+      <answer toNode="3"><text>Что ты сделал?</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Никого. В этом и был ужас. Не шум, не призрак в углу, не кровь на стене. А чужая помощь, о которой ты не просил, но которая знает тебя слишком хорошо.</npcText>
+    <answers>
+      <answer toNode="3"><text>Ты кому-нибудь рассказал?</text></answer>
+      <answer toNode="3"><text>Я бы после такого ушла.</text></answer>
+      <answer toNode="4"><text>Тогда ты и начал копать.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Сначала — никому. Сам себе не поверил. Решил, что устал. Знаешь, сколько мерзости в мире случается только потому, что кто-то вовремя выбрал удобное объяснение?</npcText>
+    <answers>
+      <answer toNode="4"><text>Слишком много.</text></answer>
+      <answer toNode="4"><text>И ты выбрал не верить себе.</text></answer>
+      <answer toNode="4"><text>А потом стало поздно.</text></answer>
+    </answers>
+  </node>
+  <node>
+    <npcText>Да. Аномалия редко начинается с крика. Чаще — с услуги, за которую никто не должен был платить.</npcText>
+    <answers>
+      <answer toNode="0"><text>Жуткая мысль.</text><end>true</end></answer>
+      <answer toNode="0"><text>Теперь я понимаю, почему ты сразу мне не доверял.</text><end>true</end></answer>
+      <answer toNode="0"><text>Расскажешь ещё потом.</text><end>true</end></answer>
+    </answers>
+  </node>
+</xmlDialogue>

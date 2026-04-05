@@ -1820,7 +1820,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ListDialogue
   dealogues:
-  - {fileID: 4900000, guid: 7be599b5169d4be418808df08d4dce9b, type: 3}
+  - {fileID: 4900000, guid: 2cc88c3b9ee018c48a9973aeb64c6eba, type: 3}
+  - {fileID: 4900000, guid: 961175a87eb16674d9120b550e266c82, type: 3}
+  - {fileID: 4900000, guid: 5ce4a79cc2dece34b8fe7cd5ea46ad2f, type: 3}
+  - {fileID: 4900000, guid: 992d81f981897294a9523a7afdf17bba, type: 3}
+  - {fileID: 4900000, guid: 37f6b7abd8145e84799f382903f74455, type: 3}
+  - {fileID: 4900000, guid: f952b2de4d116d949872295f5d82cf29, type: 3}
 --- !u!114 &328971759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,6 +1838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4adc9cd93b7a964fb29b40bb804c1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenWindowsDia
+  _activeObjects: []
 --- !u!1 &329818669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2513,7 @@ GameObject:
   - component: {fileID: 446725355}
   - component: {fileID: 446725357}
   - component: {fileID: 446725356}
+  - component: {fileID: 446725358}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -2576,6 +2583,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446725354}
   m_CullTransparentMesh: 1
+--- !u!114 &446725358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446725354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aac064438fc75248b34191890b5dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FreezPlayer
 --- !u!1 &464074300
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,6 +3198,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550149986}
   m_CullTransparentMesh: 1
+--- !u!1 &571215209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 571215211}
+  - component: {fileID: 571215210}
+  m_Layer: 0
+  m_Name: Spot Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &571215210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571215209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 1.25
+  m_PointLightOuterRadius: 3.27
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!4 &571215211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571215209}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.37, y: 0.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &571260173
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,15 +3364,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SetActivObject
   _activeObjects:
   - {fileID: 0}
+  - {fileID: 2130693335}
   - {fileID: 0}
+  - {fileID: 106811705}
   - {fileID: 0}
+  - {fileID: 1568149425}
   - {fileID: 0}
+  - {fileID: 1738772861}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1319314596}
 --- !u!61 &663099825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4129,6 +4232,98 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1440099b2f457234d82de187b772e616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectLayerController
+--- !u!1 &949489651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 949489652}
+  - component: {fileID: 949489654}
+  - component: {fileID: 949489653}
+  m_Layer: 0
+  m_Name: ZoneFridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &949489652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949489651}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.08, y: -2.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1738772862}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &949489653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949489651}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1203051d8cb42034fa62079d36c2a3e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetActivObject
+  _activeObjects: []
+--- !u!61 &949489654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949489651}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.21753192, y: 0.15583885}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.7559323, y: 0.6883223}
+  m_EdgeRadius: 0
 --- !u!1 &1002234145
 GameObject:
   m_ObjectHideFlags: 0
@@ -6745,6 +6940,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1776210777}
+  - {fileID: 949489652}
   - {fileID: 328971755}
   - {fileID: 663099823}
   - {fileID: 1058421939}
@@ -8094,7 +8290,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
@@ -8338,3 +8534,4 @@ SceneRoots:
   - {fileID: 61510363}
   - {fileID: 104646767}
   - {fileID: 705338416}
+  - {fileID: 571215211}
