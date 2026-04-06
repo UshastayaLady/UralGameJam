@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SetActivTrigger : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExit
 {
-    [SerializeField] private GameObject [] _activeObjects;
+    [SerializeField] protected GameObject [] _activeObjects;
 
     protected virtual void ActivationInteractiveZone()
     {
@@ -21,7 +21,7 @@ public class SetActivTrigger : MonoBehaviour, ITriggerZoneEnter, ITriggerZoneExi
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
     }
 
-    private void OnDisable()
+    protected void OnDisable()
     {
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
     }    
