@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TriggerDia : SetActivObject
+public class TriggerDia : SetActivTrigger
 {   
     private ListDialogue _listDialogue;
     private void Awake()

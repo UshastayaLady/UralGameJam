@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\UnityProgect\\UralGameJam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\triggerdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\triggerdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\mark_life_story_04_last_quiet_evening.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_life_story_04_last_quiet_evening.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_life_story_04_last_quiet_evening.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -50,7 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "TriggerDia.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T00:54:18.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "mark_life_story_04_last_quiet_evening.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-06T00:32:56.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T00:32:56.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "mark_life_story_03_first_sign.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "mark_life_story_01_first_shift.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "night_shift_dialogue_01.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "mark_life_story_02_signature_dish.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
@@ -111,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "mark_repeat_placeholder.xml",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ListDialogue.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ListDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ListDialogue.cs",
@@ -141,7 +157,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReadXmlDialogue.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
@@ -153,13 +169,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InstantiateDialogue.cs",
               "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
               "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAtwD8AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T18:51:42.821Z",
               "EditorCaption": ""
