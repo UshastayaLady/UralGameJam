@@ -28,6 +28,6 @@ public class DragableObject : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public virtual void OnEndDrag(PointerEventData eventData)
     {
-        
+        _isDragging = false;
     }
 }
