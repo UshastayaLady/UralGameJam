@@ -30,4 +30,9 @@ public class Item : MonoBehaviour
     {
         take.onClick.RemoveListener(TookItem);
     }
+
+    public string GetName()
+    {
+        return name;
+    }
 }
