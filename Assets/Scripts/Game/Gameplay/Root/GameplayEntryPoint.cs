@@ -13,5 +13,6 @@ public class GameplayEntryPoint : MonoBehaviour
         uiRoot.AttachSceneUI(gameplayUI.gameObject);
 
         gameplayUI.Menu.OnExitButtonClick += () => OnLoadMainMenuScene?.Invoke();
+        
     }
 }

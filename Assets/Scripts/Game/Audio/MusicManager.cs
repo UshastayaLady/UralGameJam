@@ -27,4 +27,9 @@ public class MusicManager : MonoBehaviour
     {
         _musicSource.volume = volume;
     }
+
+    public void PlayMusic()
+    {
+        _musicSource.Play();
+    }
 }

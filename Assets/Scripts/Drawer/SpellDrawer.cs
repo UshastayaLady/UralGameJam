@@ -14,7 +14,8 @@ public enum RuneType
     ExpectoPatronum, // (спираль)
     Incendio,       // (зигзаг)
     Stupefy,        // (звезда)
-    Accio           // (крюк)
+    Accio,
+    Pheu
 }
 
 public class SpellDrawer : MonoBehaviour
@@ -153,130 +154,50 @@ public class SpellDrawer : MonoBehaviour
                 return GetStupefyPattern();
             case RuneType.Accio:
                 return GetAccioPattern();
+            case RuneType.Pheu:
+                return GetPheuPattern();
             default:
                 return GetAlohomoraPattern();
         }
     }
 
-    // Руна Alohomora (Открытие) - Крюк
     List<Vector2> GetAlohomoraPattern()
     {
-        //return new List<Vector2>()
-        //{
-        //    new Vector2(-300, 300),
-        //    new Vector2(300, 300),
-        //    new Vector2(300, 100),
-        //    new Vector2(-300, 100),
-        //    new Vector2(-300, -100),
-        //    new Vector2(300, -100),
-        //    new Vector2(300, -300),
-        //    new Vector2(-300, -300)
-        //};
-
-        // Руна Alohomora (Открытие) - Крюк
-        //return new List<Vector2>() { new Vector2(-300, 300), new Vector2(0, 300), new Vector2(0, -150), new Vector2(240, -360) };
-
-        // Руна Alohomora (Открытие) - Зигзаг
-        //return new List<Vector2>() { new Vector2(-360, 240), new Vector2(-120, 0), new Vector2(120, 240), new Vector2(360, 0) };
-
-        // Руна Alohomora (Открытие) - Вилка
-        //return new List<Vector2>() { new Vector2(0, 360), new Vector2(0, -360), new Vector2(-240, -120), new Vector2(0, -360), new Vector2(240, -120) };
-
-        // Руна силы и мощи W
-        //    return new List<Vector2>() {
-        //    new Vector2(-240, 360), new Vector2(-240, -240),
-        //    new Vector2(0, 120), new Vector2(240, -240),
-        //    new Vector2(240, 360)
-        //};
-
-
-        //    return new List<Vector2>() {
-        //    new Vector2(-240, 240), new Vector2(0, 360),
-        //    new Vector2(240, 240), new Vector2(0, -360),
-        //    new Vector2(-150, 60), new Vector2(150, 60)
-        //};
-
-        //    return new List<Vector2>() {
-        //    new Vector2(-300, 300), new Vector2(0, 300),
-        //    new Vector2(300, 0), new Vector2(0, -300),
-        //    new Vector2(-300, -300), new Vector2(0, 0)
-        //};
-
         return new List<Vector2>() {
-        new Vector2(-240, 360), new Vector2(240, 360),
-        new Vector2(0, 0), new Vector2(240, -360),
-        new Vector2(-240, -360), new Vector2(0, 0),
-        new Vector2(0, 360)
-    };
+            new Vector2(-240, 360), new Vector2(-240, -240),
+            new Vector2(0, 120), new Vector2(240, -240),
+            new Vector2(240, 360)
+        }; 
     }
 
-
-
-    // Руна Flipendo (Отбрасывание) - Молния
     List<Vector2> GetFlipendoPattern()
     {
-        return new List<Vector2>()
-        {
-            new Vector2(-300, 300),
-            new Vector2(100, -100),
-            new Vector2(300, -100),
-            new Vector2(300, -300),
-            new Vector2(100, -300),
-            new Vector2(-100, 100),
-            new Vector2(-300, 100),
-            new Vector2(-300, 300)
+        return new List<Vector2>() {
+            new Vector2(-240, 240), new Vector2(0, 360),
+            new Vector2(240, 240), new Vector2(0, -360),
+            new Vector2(-150, 60), new Vector2(150, 60)
         };
     }
 
-    // Руна Lumos (Свет) - Круг с точкой
     List<Vector2> GetLumosPattern()
     {
-        List<Vector2> circle = new List<Vector2>();
-        int segments = 32;
-        float radius = 240f;
-        float centerX = 0f;
-        float centerY = 0f;
-
-        for (int i = 0; i <= segments; i++)
-        {
-            float angle = i * 2 * Mathf.PI / segments;
-            float x = centerX + Mathf.Cos(angle) * radius;
-            float y = centerY + Mathf.Sin(angle) * radius;
-            circle.Add(new Vector2(x, y));
-        }
-
-        // Добавляем точку в центре (маленький кружок)
-        for (int i = 0; i <= 16; i++)
-        {
-            float angle = i * 2 * Mathf.PI / 16;
-            float x = centerX + Mathf.Cos(angle) * 20f;
-            float y = centerY + Mathf.Sin(angle) * 20f;
-            circle.Add(new Vector2(x, y));
-        }
-
-        return circle;
-    }
-
-    // Руна Wingardium Leviosa (Левитация) - Волна/птица
-    List<Vector2> GetWingardiumPattern()
-    {
-        return new List<Vector2>()
-        {
-            new Vector2(-360, -100),
-            new Vector2(-240, 100),
-            new Vector2(-120, -100),
-            new Vector2(0, 100),
-            new Vector2(120, -100),
-            new Vector2(240, 100),
-            new Vector2(360, -100),
-            // Хвост птицы
-            new Vector2(300, -200),
-            new Vector2(240, -100),
-            new Vector2(200, -160)
+        return new List<Vector2>() {
+            new Vector2(-300, 300), new Vector2(0, 300),
+            new Vector2(300, 0), new Vector2(0, -300),
+            new Vector2(-300, -300), new Vector2(0, 0)
         };
     }
 
-    // Руна Expecto Patronum (Патронус) - Спираль
+    List<Vector2> GetWingardiumPattern()
+    {
+        return new List<Vector2>() {
+            new Vector2(-240, 360), new Vector2(240, 360),
+            new Vector2(0, 0), new Vector2(240, -360),
+            new Vector2(-240, -360), new Vector2(0, 0),
+            new Vector2(0, 360)
+        };
+    }
+
     List<Vector2> GetExpectoPatronumPattern()
     {
         List<Vector2> spiral = new List<Vector2>();
@@ -296,61 +217,53 @@ public class SpellDrawer : MonoBehaviour
         return spiral;
     }
 
-    // Руна Incendio (Огонь) - Зигзаг вверх
     List<Vector2> GetIncendioPattern()
     {
-        return new List<Vector2>()
-        {
-            new Vector2(-200, -300),
-            new Vector2(-100, -100),
-            new Vector2(0, -300),
-            new Vector2(100, -100),
-            new Vector2(200, -300),
-            new Vector2(160, -60),
-            new Vector2(240, 100),
-            new Vector2(120, 160),
-            new Vector2(0, 240),
-            new Vector2(-120, 160),
-            new Vector2(-240, 100),
-            new Vector2(-160, -60),
-            new Vector2(-200, -300)
+        return new List<Vector2>() {
+            new Vector2(-240, 360), new Vector2(240, -360),
+            new Vector2(240, 360), new Vector2(-240, -360),
+            new Vector2(0, 0), new Vector2(0, -360)
         };
     }
 
-    // Руна Stupefy (Оглушение) - Звезда
     List<Vector2> GetStupefyPattern()
     {
-        List<Vector2> star = new List<Vector2>();
-        int points = 5;
-        float outerRadius = 300f;
-        float innerRadius = 140f;
-
-        for (int i = 0; i <= points * 2; i++)
-        {
-            float angle = i * Mathf.PI / points;
-            float radius = (i % 2 == 0) ? outerRadius : innerRadius;
-            float x = Mathf.Cos(angle) * radius;
-            float y = Mathf.Sin(angle) * radius;
-            star.Add(new Vector2(x, y));
-        }
-
-        return star;
+        return new List<Vector2>() {
+            new Vector2(-300, 360), new Vector2(300, 360),
+            new Vector2(-300, 0), new Vector2(300, 0),
+            new Vector2(-300, -360), new Vector2(300, -360),
+            new Vector2(0, 360), new Vector2(0, -360)
+        };
     }
 
-    // Руна Accio (Призыв) - Крюк
     List<Vector2> GetAccioPattern()
+    {
+        List<Vector2> points = new List<Vector2>();
+        // Левая часть
+        points.Add(new Vector2(-300, 360));
+        points.Add(new Vector2(-300, -360));
+        points.Add(new Vector2(-300, 0));
+        points.Add(new Vector2(0, 180));
+        points.Add(new Vector2(300, 0));
+        // Правая часть
+        points.Add(new Vector2(300, 360));
+        points.Add(new Vector2(300, -360));
+        points.Add(new Vector2(0, -180));
+        points.Add(new Vector2(-300, 0));
+        return points;
+    }
+
+    List<Vector2> GetPheuPattern()
     {
         return new List<Vector2>()
         {
             new Vector2(-300, 300),
-            new Vector2(-100, 300),
-            new Vector2(-100, 0),
-            new Vector2(200, 0),
+            new Vector2(300, 300),
             new Vector2(300, 100),
-            new Vector2(200, 200),
-            new Vector2(100, 100),
-            new Vector2(100, -100),
-            new Vector2(-100, -100),
+            new Vector2(-300, 100),
+            new Vector2(-300, -100),
+            new Vector2(300, -100),
+            new Vector2(300, -300),
             new Vector2(-300, -300)
         };
     }

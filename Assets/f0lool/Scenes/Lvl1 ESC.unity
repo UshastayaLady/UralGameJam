@@ -9178,7 +9178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TriggerRune
   _activeObjects:
   - {fileID: 550725738}
-  _runeType: 0
+  _runeType: 7
   _secondsTimer: 6
   _maxDrawLenght: 6000
   _successThreshold: 80
