@@ -15,4 +15,9 @@ public class GameplayEntryPoint : MonoBehaviour
         gameplayUI.Menu.OnExitButtonClick += () => OnLoadMainMenuScene?.Invoke();
         
     }
+
+    public void LoadMainMenu()
+    {
+        OnLoadMainMenuScene?.Invoke();
+    }
 }
