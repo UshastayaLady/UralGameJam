@@ -9,18 +9,21 @@ public class InputPlayer : MonoBehaviour
     private float _directionX;
     private float _directionY;
 
-    private bool _freez = false;
-    private int _countFreez = 0;
+    private bool _freezPlayer = false;
+    private int _countFreezPlayer = 0;
+
+    private bool _freezInput = false;
+    private int _countFreezInput = 0;
 
     public static event Action<float, float> PlayerMoved;
     public static event Action launchedInteractiveZone;
 
     private void Update()
     {
-        if (!_freez)
+        if (!_freezPlayer)
             DownButtonMove();
-        DownButtonInteractiveZone();
-            
+        if (!_freezInput)
+            DownButtonInteractiveZone();
     }
     private void FixedUpdate()
     {
@@ -29,7 +32,7 @@ public class InputPlayer : MonoBehaviour
     private void DownButtonMove()
     {
         _directionX = Input.GetAxis(Horizontal);
-        _directionY = Input.GetAxis(Vertical);        
+        _directionY = Input.GetAxis(Vertical);
     }
 
     private void DownButtonInteractiveZone()
@@ -44,27 +47,51 @@ public class InputPlayer : MonoBehaviour
     {
         if (freez == true)
         {
-            if (_freez != true)
+            if (_freezPlayer != true)
             {
                 _directionX = 0;
                 _directionY = 0;
-                _freez = true;
+                _freezPlayer = true;
             }
-            _countFreez++;
+            _countFreezPlayer++;
         }
         else
         {
-            _countFreez--;
-            if (_countFreez == 0)
+            _countFreezPlayer--;
+            if (_countFreezPlayer == 0)
             {
-                _freez = false;
+                _freezPlayer = false;
             }
         }
     }
 
+    private void CounterInput(bool freez)
+    {
+        if (freez == true)
+        {
+            if (_freezInput != true)
+            {
+                _freezInput = true;
+            }
+            _countFreezInput++;
+        }
+        else
+        {
+            _countFreezInput--;
+            if (_countFreezInput == 0)
+            {
+                _freezInput = false;
+            }
+        }
+    }
 
     public void FreezPlayer(bool freez)
     {
         CounterPlayer(freez);
+    }
+
+    public void FreezInput(bool freez)
+    {
+        CounterInput(freez);
     }
 }
