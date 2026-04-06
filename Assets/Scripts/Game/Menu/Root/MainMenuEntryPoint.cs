@@ -14,5 +14,6 @@ public class MainMenuEntryPoint : MonoBehaviour
 
         uiScene.OnPlayButtonClick += ()  => OnLoadGameplayScene?.Invoke();
         uiScene.Initialize();
+        MusicManager.Instance.PlayMusic();
     }
 }
