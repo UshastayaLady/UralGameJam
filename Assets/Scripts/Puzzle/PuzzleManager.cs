@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,7 +11,10 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField] private int _width = 5;
     [SerializeField] private int _height = 5;
     [SerializeField] private Transform _gridOrigin;
+
     private Slot[,] _grid;
+
+    public event Action OnCompletePuzzle;
 
     public void Initialize()
     {
@@ -143,6 +147,7 @@ public class PuzzleManager : MonoBehaviour
             }
         }
 
+        OnCompletePuzzle?.Invoke();
         Debug.Log("Успех");
     }
 

@@ -40,6 +40,7 @@ public class PuzzleObjext : DragableObject, IPointerDownHandler
             _currentSlot.IsEmpty = true;
             _currentSlot.CurrentPuzzleID = 1000;
             _currentSlot.CurrentRotatePuzzle = 1000;
+            _currentSlot = null;
         }
 
         if (slot == null)
