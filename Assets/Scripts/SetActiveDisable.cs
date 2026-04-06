@@ -7,7 +7,9 @@ public class SetActiveDisable : MonoBehaviour
 
     private void OnDisable()
     {
-        foreach (var item in _openObjects) { item.gameObject.SetActive(true);}
-        foreach (var item in _closeObjects) { item.gameObject.SetActive(false);}        
+        if (_openObjects != null)
+            foreach (var item in _openObjects) { item.gameObject.SetActive(true);}
+        if (_closeObjects != null)
+            foreach (var item in _closeObjects) { item.gameObject.SetActive(false);}        
     }
 }
