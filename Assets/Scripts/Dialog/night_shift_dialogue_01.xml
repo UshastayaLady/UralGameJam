@@ -261,14 +261,17 @@
       <answer>
         <text>Ладно. Я проверю кабинет.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
       <answer>
         <text>Спасибо, Марк.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
       <answer>
         <text>Не исчезай.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
     </answers>
   </node>
@@ -279,6 +282,7 @@
       <answer>
         <text>Поняла. Я иду в кабинет.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
       <answer toNode="17">
         <text>Тогда мне нужны все улики.</text>
@@ -286,6 +290,7 @@
       <answer>
         <text>Если вспомнишь что-то ещё — скажи.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
     </answers>
   </node>
@@ -302,6 +307,7 @@
       <answer>
         <text>Спасибо за правду.</text>
         <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
       </answer>
     </answers>
   </node>

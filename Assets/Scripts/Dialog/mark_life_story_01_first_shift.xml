@@ -35,9 +35,15 @@
   <node>
     <npcText>Каждую ночь. Не первый ужас. Первый день. Он всегда возвращается раньше.</npcText>
     <answers>
-      <answer toNode="0"><text>Хватит об этом.</text><end>true</end></answer>
-      <answer toNode="0"><text>Спасибо, что рассказал.</text><end>true</end></answer>
-      <answer toNode="0"><text>Я запомню.</text><end>true</end></answer>
+      <answer toNode="0"><text>Хватит об этом.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+	  <answer toNode="0"><text>Спасибо, что рассказал.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Я запомню.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
     </answers>
   </node>
 </xmlDialogue>

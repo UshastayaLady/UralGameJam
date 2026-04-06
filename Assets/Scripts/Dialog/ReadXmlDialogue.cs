@@ -54,9 +54,6 @@ public class Answer
     
     [XmlElement("nextDialogue")] // Конец диалога и переход на следующий
     public ЕndNextDialogue nextDialogue;
-
-    //[XmlAttribute("nextNumberDialogue")]
-    //public int nextNumberDialogue;
 }
 
 public class ЕndNextDialogue

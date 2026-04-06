@@ -35,9 +35,15 @@
   <node>
     <npcText>Да. Аномалия редко начинается с крика. Чаще — с услуги, за которую никто не должен был платить.</npcText>
     <answers>
-      <answer toNode="0"><text>Жуткая мысль.</text><end>true</end></answer>
-      <answer toNode="0"><text>Теперь я понимаю, почему ты сразу мне не доверял.</text><end>true</end></answer>
-      <answer toNode="0"><text>Расскажешь ещё потом.</text><end>true</end></answer>
+      <answer toNode="0"><text>Жуткая мысль.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Теперь я понимаю, почему ты сразу мне не доверял.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Расскажешь ещё потом.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
     </answers>
   </node>
 </xmlDialogue>

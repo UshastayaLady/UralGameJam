@@ -35,9 +35,15 @@
   <node>
     <npcText>Достаточно, чтобы ненавидеть это место. И достаточно, чтобы хотеть его наконец-то остановить.</npcText>
     <answers>
-      <answer toNode="0"><text>Тогда остановим.</text><end>true</end></answer>
-      <answer toNode="0"><text>Я с тобой.</text><end>true</end></answer>
-      <answer toNode="0"><text>Пошли дальше.</text><end>true</end></answer>
+      <answer toNode="0"><text>Тогда остановим.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Я с тобой.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Пошли дальше.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
     </answers>
   </node>
 </xmlDialogue>

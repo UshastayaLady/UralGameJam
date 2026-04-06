@@ -35,9 +35,15 @@
   <node>
     <npcText>Хорошо, что хоть кто-то ещё может назвать её просто историей, а не уликой.</npcText>
     <answers>
-      <answer toNode="0"><text>Спасибо, Марк.</text><end>true</end></answer>
-      <answer toNode="0"><text>Когда выберемся, я это приготовлю.</text><end>true</end></answer>
-      <answer toNode="0"><text>Пойдём дальше.</text><end>true</end></answer>
+      <answer toNode="0"><text>Спасибо, Марк.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Когда выберемся, я это приготовлю.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
+      <answer toNode="0"><text>Пойдём дальше.</text><end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+	  </answer>
     </answers>
   </node>
 </xmlDialogue>
