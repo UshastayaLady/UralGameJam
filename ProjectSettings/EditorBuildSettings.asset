@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/f0lool/Scenes/MainMenu.unity
     guid: d9821814eca20f34da496f83896bca95
+  - enabled: 1
+    path: Assets/f0lool/Scenes/Lvl1 ESC.unity
+    guid: 1293c198f547c7b40a7ae6d8c100e7f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
