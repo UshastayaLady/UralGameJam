@@ -662,7 +662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &69679348
 Transform:
   m_ObjectHideFlags: 0
@@ -1238,7 +1238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &106811706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1792,7 +1792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &173452587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5950,7 +5950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &693805986
 SpriteRenderer:
   serializedVersion: 2
@@ -10636,7 +10636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1319314597
 Transform:
   m_ObjectHideFlags: 0
@@ -12293,7 +12293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2882808768051929888, guid: 295583e37bcb4cf4091db179750df967, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5932039408239415599, guid: 295583e37bcb4cf4091db179750df967, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12433,7 +12433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1568149426
 Transform:
   m_ObjectHideFlags: 0
@@ -13740,7 +13740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1738772862
 Transform:
   m_ObjectHideFlags: 0
@@ -16339,7 +16339,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2109709669
 Transform:
   m_ObjectHideFlags: 0
@@ -17240,7 +17240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2882808768051929888, guid: 295583e37bcb4cf4091db179750df967, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5932039408239415599, guid: 295583e37bcb4cf4091db179750df967, type: 3}
       propertyPath: m_LocalPosition.x
