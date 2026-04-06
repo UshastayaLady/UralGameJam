@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheckInventoryTrigger : SetActivTrigger
 {
+    [SerializeField] private Image _dontFinnd;
     [SerializeField] private List<Item> _findItems;
     private static Inventory _inventory;
 
@@ -16,6 +18,10 @@ public class CheckInventoryTrigger : SetActivTrigger
         if (_inventory.FindItems(_findItems))
         {
             base.ActivationInteractiveZone();
-        }        
-    }
+        }
+        else
+        {
+            _dontFinnd.gameObject.SetActive(true);
+        }
+    }   
 }
