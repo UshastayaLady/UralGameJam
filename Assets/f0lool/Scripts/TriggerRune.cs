@@ -11,11 +11,6 @@ public class TriggerRune : SetActivTrigger
 
     [SerializeField] private Animator _animatorObject;
 
-    private void Awake()
-    {
-        
-    }
-
     protected override void ActivationInteractiveZone()
     {
         base.ActivationInteractiveZone();
@@ -29,6 +24,7 @@ public class TriggerRune : SetActivTrigger
         _animatorObject.enabled = false;
         base.ActivationInteractiveZone();
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
+        SpellDrawer.Instance.OnCompleteRune -= CompleteRune;
         gameObject.SetActive(false);
     }
 
@@ -40,10 +36,4 @@ public class TriggerRune : SetActivTrigger
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
         gameObject.SetActive(false);
     }
-
-
-    //private void OnDisable()
-    //{
-    //    SpellDrawer.Instance.OnCompleteRune -= CompleteRune;
-    //}
 }

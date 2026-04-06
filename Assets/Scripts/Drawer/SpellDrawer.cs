@@ -91,6 +91,10 @@ public class SpellDrawer : MonoBehaviour
         _drawingTimer = seconds;
         _maxDrawLength = maxDrawLength;
         _successThreshold = successThreshold;
+
+        ClearDrawing();
+        _drawingCanvas.color = Color.white;
+
         OnInitialized?.Invoke();
     }
 
@@ -154,21 +158,59 @@ public class SpellDrawer : MonoBehaviour
         }
     }
 
-    // Руна Alohomora (Открытие) - Буква "S"
+    // Руна Alohomora (Открытие) - Крюк
     List<Vector2> GetAlohomoraPattern()
     {
-        return new List<Vector2>()
-        {
-            new Vector2(-300, 300),
-            new Vector2(300, 300),
-            new Vector2(300, 100),
-            new Vector2(-300, 100),
-            new Vector2(-300, -100),
-            new Vector2(300, -100),
-            new Vector2(300, -300),
-            new Vector2(-300, -300)
-        };
+        //return new List<Vector2>()
+        //{
+        //    new Vector2(-300, 300),
+        //    new Vector2(300, 300),
+        //    new Vector2(300, 100),
+        //    new Vector2(-300, 100),
+        //    new Vector2(-300, -100),
+        //    new Vector2(300, -100),
+        //    new Vector2(300, -300),
+        //    new Vector2(-300, -300)
+        //};
+
+        // Руна Alohomora (Открытие) - Крюк
+        //return new List<Vector2>() { new Vector2(-300, 300), new Vector2(0, 300), new Vector2(0, -150), new Vector2(240, -360) };
+
+        // Руна Alohomora (Открытие) - Зигзаг
+        //return new List<Vector2>() { new Vector2(-360, 240), new Vector2(-120, 0), new Vector2(120, 240), new Vector2(360, 0) };
+
+        // Руна Alohomora (Открытие) - Вилка
+        //return new List<Vector2>() { new Vector2(0, 360), new Vector2(0, -360), new Vector2(-240, -120), new Vector2(0, -360), new Vector2(240, -120) };
+
+        // Руна силы и мощи W
+        //    return new List<Vector2>() {
+        //    new Vector2(-240, 360), new Vector2(-240, -240),
+        //    new Vector2(0, 120), new Vector2(240, -240),
+        //    new Vector2(240, 360)
+        //};
+
+
+        //    return new List<Vector2>() {
+        //    new Vector2(-240, 240), new Vector2(0, 360),
+        //    new Vector2(240, 240), new Vector2(0, -360),
+        //    new Vector2(-150, 60), new Vector2(150, 60)
+        //};
+
+        //    return new List<Vector2>() {
+        //    new Vector2(-300, 300), new Vector2(0, 300),
+        //    new Vector2(300, 0), new Vector2(0, -300),
+        //    new Vector2(-300, -300), new Vector2(0, 0)
+        //};
+
+        return new List<Vector2>() {
+        new Vector2(-240, 360), new Vector2(240, 360),
+        new Vector2(0, 0), new Vector2(240, -360),
+        new Vector2(-240, -360), new Vector2(0, 0),
+        new Vector2(0, 360)
+    };
     }
+
+
 
     // Руна Flipendo (Отбрасывание) - Молния
     List<Vector2> GetFlipendoPattern()
