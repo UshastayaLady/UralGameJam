@@ -98,6 +98,8 @@ public class GameEntryPoint
         var sceneEntryPoint = Object.FindFirstObjectByType<GameplayEntryPoint>();
         sceneEntryPoint.Run(_uiRoot);
 
+        sceneEntryPoint.OnLoadMainMenuScene += (() => _coroutine.StartCoroutine(LoadAndStartMainMenu()));
+
         _uiRoot.HideLoadingScreen();
     }
 
