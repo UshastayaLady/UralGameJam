@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "F:\\Projects\\AntologiyaJam\\UralGameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|f:\\projects\\antologiyajam\\uralgamejam\\assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|f:\\projects\\antologiyajam\\uralgamejam\\assets\\scripts\\pincod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pincod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|f:\\projects\\antologiyajam\\uralgamejam\\assets\\scripts\\dialog\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\answerclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|F:\\Projects\\AntologiyaJam\\UralGameJam\\assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|F:\\Projects\\AntologiyaJam\\UralGameJam\\assets\\scripts\\triggerzone\\setactivtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\setactivtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|F:\\Projects\\AntologiyaJam\\UralGameJam\\assets\\scripts\\triggerzone\\checkinventorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\checkinventorytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +29,72 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 184,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InputPlayer.cs",
-              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\InputPlayer.cs",
-              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\InputPlayer.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwGEAAAAAAAAAAAAAAA==",
+              "Title": "PinCod.cs",
+              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\PinCod.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PinCod.cs",
+              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\PinCod.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PinCod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T07:21:25.044Z",
+              "WhenOpened": "2026-04-06T08:59:48.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnswerClick.cs",
+              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Dialog\\AnswerClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\AnswerClick.cs",
+              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Dialog\\AnswerClick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\AnswerClick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:51:36.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:23:42.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckInventoryTrigger.cs",
+              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\TriggerZone\\CheckInventoryTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\CheckInventoryTrigger.cs",
+              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\TriggerZone\\CheckInventoryTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\CheckInventoryTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:18:24.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetActivTrigger.cs",
+              "DocumentMoniker": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\SetActivTrigger.cs",
+              "ToolTip": "F:\\Projects\\AntologiyaJam\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\SetActivTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T08:18:29.303Z",
               "EditorCaption": ""
             }
           ]
