@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4278393550278748215}
   - component: {fileID: 8787517426211123032}
+  - component: {fileID: 2280970042470654917}
   m_Layer: 0
   m_Name: Achievement
   m_TagString: Untagged
@@ -52,6 +53,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Achievement
   _achievementImage: {fileID: 9047851701536870969}
   _achievementName: {fileID: 5268807549253512303}
+--- !u!114 &2280970042470654917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497650835170026554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11e2cb083af26b4f986bde315f0d108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonAnimation
 --- !u!1 &4097820115963267061
 GameObject:
   m_ObjectHideFlags: 0

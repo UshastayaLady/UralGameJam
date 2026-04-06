@@ -33,6 +33,6 @@ public class Settings : MonoBehaviour
         int height = int.Parse(parts[1]);
 
         SaveManager.Instance.SaveResolution(y);
-        Screen.SetResolution(width, height, FullScreenMode.FullScreenWindow);
+        Screen.SetResolution(width, height, FullScreenMode.Windowed);
     }
 }
