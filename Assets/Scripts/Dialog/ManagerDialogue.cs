@@ -5,30 +5,31 @@ using UnityEngine;
 [RequireComponent(typeof(InstantiateDialogue))]
 public class ManagerDialogue : MonoBehaviour
 {
-    private InstantiateDialogue iInstantiateDialogue;
+    [SerializeField] private GameObject _windowsDia;
+    private InstantiateDialogue _iInstantiateDialogue;
 
     private void Awake()
     {
-        iInstantiateDialogue = FindAnyObjectByType<InstantiateDialogue>();
+        _iInstantiateDialogue = FindAnyObjectByType<InstantiateDialogue>();
     }
 
     private void OnEnable()
     {
-        iInstantiateDialogue.Finished += CloseWindos;
+        _iInstantiateDialogue.Finished += CloseWindos;
     }
     public void OpenWindos(TextAsset textAsset)
     {
-        iInstantiateDialogue.gameObject.SetActive(true);
-        iInstantiateDialogue.StartDialogue(textAsset);
+        _windowsDia.SetActive(true);
+        _iInstantiateDialogue.StartDialogue(textAsset);
     }
 
     private void CloseWindos()
     {
-        iInstantiateDialogue.gameObject.SetActive(false);
+        _windowsDia.SetActive(false);
     }
 
     private void OnDisable()
     {
-        iInstantiateDialogue.Finished -= CloseWindos;
+        _iInstantiateDialogue.Finished -= CloseWindos;
     }
 }

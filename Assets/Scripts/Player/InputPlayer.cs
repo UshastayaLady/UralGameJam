@@ -45,6 +45,8 @@ public class InputPlayer : MonoBehaviour
         {
             if (_freez != true)
             {
+                _directionX = 0;
+                _directionY = 0;
                 _freez = true;
             }
             _countFreez++;

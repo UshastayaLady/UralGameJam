@@ -15,7 +15,7 @@ public class InstantiateDialogue : MonoBehaviour
     public event Action DelledAnswersButtons;
     public event Action Finished;    
 
-    private TextAsset ta;
+    [SerializeField] private TextAsset ta;
     private int currentNode = 0;
 
     #endregion
@@ -29,11 +29,11 @@ public class InstantiateDialogue : MonoBehaviour
     {
         if (ta!=null)
         {            
-            CleanDialogue();
-            ta = textAsset;
-            xmlDialogue = ReadXmlDialogue.Load(ta);                      
-            WriteText();
-        }                   
+            CleanDialogue();            
+        }
+        ta = textAsset;
+        xmlDialogue = ReadXmlDialogue.Load(ta);
+        WriteText();
     }        
    
     private void WriteText()
@@ -59,11 +59,15 @@ public class InstantiateDialogue : MonoBehaviour
         if (answer == null || answer.endRestart == "true")
         {
             Finished?.Invoke();
-            CleanDialogue();
-
+            
             if (answer.nextDialogue != null)
-                NextDialogue?.Invoke(answer.nextDialogue.nextNumberDialogue);
-            else NextDialogue?.Invoke(-1);
+            {
+                if (answer.nextDialogue.nextNumberDialogue == -1)
+                    NextDialogue?.Invoke(-1);
+                else 
+                    NextDialogue?.Invoke(answer.nextDialogue.nextNumberDialogue);
+            }
+            CleanDialogue();
         }
         else
         {

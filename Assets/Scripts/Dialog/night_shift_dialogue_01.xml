@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlDialogue>
+  <node>
+    <npcText>Ты долго.</npcText>
+    <answers>
+      <answer toNode="1">
+        <text>Я вообще-то не знала, что здесь кто-то есть.</text>
+      </answer>
+      <answer toNode="2">
+        <text>А ты кто?</text>
+      </answer>
+      <answer toNode="3">
+        <text>Это ты двигаешь вещи?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Это заметно. Иначе ты бы не вошла сюда так спокойно. Как тебя зовут?</npcText>
+    <answers>
+      <answer toNode="4">
+        <text>Лея. Практикантка Академии.</text>
+      </answer>
+      <answer toNode="5">
+        <text>Сначала ты.</text>
+      </answer>
+      <answer toNode="6">
+        <text>Я не уверена, что должна представляться призраку.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Хороший вопрос. Жаль, что у мёртвых на него редко бывает короткий ответ. Как тебя зовут?</npcText>
+    <answers>
+      <answer toNode="4">
+        <text>Лея. Практикантка Академии.</text>
+      </answer>
+      <answer toNode="5">
+        <text>Сначала ты.</text>
+      </answer>
+      <answer toNode="6">
+        <text>Я не уверена, что должна представляться призраку.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Если бы я двигал всё, что ты видела, ты бы уже выбежала отсюда. Как тебя зовут?</npcText>
+    <answers>
+      <answer toNode="4">
+        <text>Лея. Практикантка Академии.</text>
+      </answer>
+      <answer toNode="5">
+        <text>Сначала ты.</text>
+      </answer>
+      <answer toNode="6">
+        <text>Я не уверена, что должна представляться призраку.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Лея... Я Марк. Когда-то был шефом этой кухни. Теперь мне хватает того, что я всё ещё помню. Что тебе сказали перед выездом?</npcText>
+    <answers>
+      <answer toNode="7">
+        <text>Что здесь слабая аномалия и ничего опасного.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Что нужно просто осмотреть место и составить отчёт.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Почти ничего. Поэтому я и хочу понять, что происходит.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Справедливо. Марк. Шеф кухни. По крайней мере, был им, когда у этого места ещё был шанс остаться просто рестораном. А теперь отвечай: что тебе сказали перед выездом?</npcText>
+    <answers>
+      <answer toNode="7">
+        <text>Что здесь слабая аномалия и ничего опасного.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Что нужно просто осмотреть место и составить отчёт.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Почти ничего. Поэтому я и хочу понять, что происходит.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Разумно. Но раз ты всё ещё стоишь здесь, а не бежишь к двери, давай без глупостей. Марк. Теперь твоя очередь: что тебе сказали перед выездом?</npcText>
+    <answers>
+      <answer toNode="7">
+        <text>Что здесь слабая аномалия и ничего опасного.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Что нужно просто осмотреть место и составить отчёт.</text>
+      </answer>
+      <answer toNode="7">
+        <text>Почти ничего. Поэтому я и хочу понять, что происходит.</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Конечно. Так и должны были сказать. Чтобы ты вошла спокойно. Это место не просто аномальное. Когда-то здесь заставляли мёртвых работать.</npcText>
+    <answers>
+      <answer toNode="8">
+        <text>В смысле — работать?</text>
+      </answer>
+      <answer toNode="8">
+        <text>Ты про духов?</text>
+      </answer>
+      <answer toNode="8">
+        <text>Подожди... что?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Сначала их звали. Потом удерживали. Потом распределяли по задачам. На кухню — жар, ножи, готовка. В зал — подача, уборка, порядок. Чем лучше шли дела, тем глубже в стены вбивали этот распорядок.</npcText>
+    <answers>
+      <answer toNode="9">
+        <text>И это никто не остановил?</text>
+      </answer>
+      <answer toNode="10">
+        <text>Ты видел всё это сам?</text>
+      </answer>
+      <answer toNode="11">
+        <text>Почему место до сих пор будто работает?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Остановили. Слишком поздно. Когда сюда пришли те, кто умел запечатывать такие вещи, ресторан уже жил по чужой воле. Но ты спросила не о том. Ты хочешь понять, почему я всё это знаю.</npcText>
+    <answers>
+      <answer toNode="10">
+        <text>Да. Кто ты на самом деле?</text>
+      </answer>
+      <answer toNode="10">
+        <text>Тогда расскажи про себя.</text>
+      </answer>
+      <answer toNode="10">
+        <text>Почему ты остался здесь?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Потому что я был шефом кухни. Сначала замечал только странности: ножи оказывались чистыми раньше, чем их мыли, жар держался сам, блюда выходили вовремя, даже когда людей не хватало. Потом понял правду. Кухня была сердцем этой системы.</npcText>
+    <answers>
+      <answer toNode="12">
+        <text>Что делали с духами?</text>
+      </answer>
+      <answer toNode="13">
+        <text>Ты пытался это остановить?</text>
+      </answer>
+      <answer toNode="14">
+        <text>Почему из всех остался только ты?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Потому что это не толпа духов. Здесь остался только я. Остальное — отпечаток. Привычка места продолжать смену так, как его когда-то научили. И да, я знаю это слишком хорошо.</npcText>
+    <answers>
+      <answer toNode="10">
+        <text>Тогда кто ты?</text>
+      </answer>
+      <answer toNode="12">
+        <text>Что значит — отпечаток?</text>
+      </answer>
+      <answer toNode="13">
+        <text>Ты пытался это остановить?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Их ломали в рабочую силу. Сначала хватало слабых сущностей, потом понадобились те, у кого были воля, память и характер. Такие служат лучше, если сперва стереть в них всё лишнее. Называли это порядком. На деле это было рабство.</npcText>
+    <answers>
+      <answer toNode="13">
+        <text>И ты позволял этому происходить?</text>
+      </answer>
+      <answer toNode="15">
+        <text>Почему никто не заметил?</text>
+      </answer>
+      <answer toNode="13">
+        <text>Что было дальше?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Я попытался всё сорвать. В одну из ночей они готовили новую привязку — слишком сильную даже для этого места. Я сбил последовательность на кухне, и система пошла вразнос. Потом пришли заклинатели. Они запечатали зону, но я умер внутри её ядра.</npcText>
+    <answers>
+      <answer toNode="14">
+        <text>Поэтому ты стал призраком?</text>
+      </answer>
+      <answer toNode="16">
+        <text>И теперь кто-то пытается повторить это?</text>
+      </answer>
+      <answer toNode="16">
+        <text>Ты хочешь сказать, всё начинается заново?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Да. Я остался не потому, что служил этой дряни, а потому, что умер слишком близко к её сердцу. Меня пришило к кухне, и я помню слишком много. Этого уже должно было хватить, чтобы сюда никого больше не тянуло.</npcText>
+    <answers>
+      <answer toNode="16">
+        <text>Но кто-то всё равно вернулся?</text>
+      </answer>
+      <answer toNode="16">
+        <text>Почему в документах это назвали слабой зоной?</text>
+      </answer>
+      <answer toNode="17">
+        <text>И что мне теперь делать?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Снаружи это был идеальный ресторан: быстрый сервис, безошибочная кухня, всегда порядок. Людям нравится чудо, пока им приносят горячее вовремя. Никто не спрашивает, кто именно для этого не спит по ночам. А потом стало поздно.</npcText>
+    <answers>
+      <answer toNode="13">
+        <text>И тогда ты попытался всё сломать?</text>
+      </answer>
+      <answer toNode="13">
+        <text>Кто запечатал это место?</text>
+      </answer>
+      <answer toNode="12">
+        <text>Значит, здесь правда использовали духов как слуг?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Да. Кто-то нашёл старые записи и теперь восстанавливает систему по кускам. Поэтому вещи снова двигаются. Поэтому место будто просыпается. Ты приехала не на проверку старого следа — ты приехала в момент, когда механизм пробуют запустить снова.</npcText>
+    <answers>
+      <answer toNode="18">
+        <text>Кто это делает?</text>
+      </answer>
+      <answer toNode="19">
+        <text>Зачем кому-то повторять такое?</text>
+      </answer>
+      <answer toNode="17">
+        <text>Что мне теперь делать?</text>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Для начала — перестать думать, что это обычная практика. Потом идти в кабинет. Если кто-то снова тянет за нитки, следы будут там. А я помогу тебе, чем смогу. Из принципа.</npcText>
+    <answers>
+      <answer>
+        <text>Ладно. Я проверю кабинет.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+      <answer>
+        <text>Спасибо, Марк.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+      <answer>
+        <text>Не исчезай.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Имени я не знаю. Но почерк узнаю: осторожный, терпеливый, чужими руками. Тот, кто это начал, не ломится в дверь. Он сначала проверяет, жива ли ещё старая схема. Поэтому я и говорю тебе торопиться.</npcText>
+    <answers>
+      <answer>
+        <text>Поняла. Я иду в кабинет.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+      <answer toNode="17">
+        <text>Тогда мне нужны все улики.</text>
+      </answer>
+      <answer>
+        <text>Если вспомнишь что-то ещё — скажи.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+    </answers>
+  </node>
+
+  <node>
+    <npcText>Потому что им нужен не ресторан. Им нужна технология. Способ заставить духа служить и назвать это порядком. Такие вещи всегда возвращаются, когда кому-то снова хочется дешёвой силы. И если их не остановить сейчас, в этот раз будет хуже.</npcText>
+    <answers>
+      <answer toNode="17">
+        <text>Тогда я закрою зону.</text>
+      </answer>
+      <answer toNode="17">
+        <text>Мне нужно попасть в кабинет.</text>
+      </answer>
+      <answer>
+        <text>Спасибо за правду.</text>
+        <end>true</end>
+		  <nextDialogue nextNumberDialogue="-1"></nextDialogue>
+      </answer>
+    </answers>
+  </node>
+</xmlDialogue>

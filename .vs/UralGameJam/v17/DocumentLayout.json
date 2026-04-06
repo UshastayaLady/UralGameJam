@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "D:\\UnityProgect\\UralGameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\setactivobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\setactivobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\triggerdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\triggerdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\player\\freezplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\freezplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|d:\\unityprogect\\uralgamejam\\assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\instantiatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\inputplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_life_story_04_last_quiet_evening.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_life_story_04_last_quiet_evening.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\isometricplayermovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_life_story_03_first_sign.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_life_story_03_first_sign.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\animatorplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_life_story_02_signature_dish.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_life_story_02_signature_dish.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\itriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_life_story_01_first_shift.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_life_story_01_first_shift.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\player\\playertriggerlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playertriggerlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\mark_repeat_placeholder.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\mark_repeat_placeholder.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\triggerzone\\objectlayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggerzone\\objectlayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\night_shift_dialogue_01.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\night_shift_dialogue_01.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\uiclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\readxmldialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\draguiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draguiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIGoBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UIGoBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|D:\\UnityProgect\\UralGameJam\\assets\\scripts\\dialog\\listdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B5F441-9F95-AA65-6A67-F2FDC9B866E3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\listdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,141 +49,136 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 184,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FreezPlayer.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\FreezPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\FreezPlayer.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\FreezPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\FreezPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T17:30:52.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IsometricPlayerMoveController.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\IsometricPlayerMoveController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T13:11:09.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AnimatorPlayer.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\AnimatorPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\AnimatorPlayer.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\AnimatorPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\AnimatorPlayer.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T13:09:07.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerTriggerListener.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerTriggerListener.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:57:28.922Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SetActivObject.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\SetActivObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Title": "TriggerDia.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\TriggerDia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:57:19.25Z",
+              "WhenOpened": "2026-04-06T00:54:18.479Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITriggerZone.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\ITriggerZone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:56:40.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ObjectLayerController.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerZone\\ObjectLayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:54:42.804Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InputPlayer.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\InputPlayer.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Player\\InputPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\InputPlayer.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T22:46:45.074Z"
+              "Title": "mark_life_story_04_last_quiet_evening.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_life_story_04_last_quiet_evening.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-06T00:32:56.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mark_life_story_03_first_sign.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_life_story_03_first_sign.xml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-06T00:32:40.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mark_life_story_01_first_shift.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_life_story_01_first_shift.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-06T00:06:21.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "night_shift_dialogue_01.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\night_shift_dialogue_01.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T23:53:18.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mark_life_story_02_signature_dish.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_life_story_02_signature_dish.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T23:53:01.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mark_repeat_placeholder.xml",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\mark_repeat_placeholder.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T23:48:42.12Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DragUIObject.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\DragUIObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DragUIObject.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\DragUIObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DragUIObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Title": "ListDialogue.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ListDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ListDialogue.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ListDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\ListDialogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T22:27:14.029Z"
-            },
+              "WhenOpened": "2026-04-05T18:51:46.793Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UIClose.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIClose.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIClose.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIClose.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIClose.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBUAAAAIAAAA",
+              "Title": "ReadXmlDialogue.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\ReadXmlDialogue.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowDcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T20:13:58.197Z"
+              "WhenOpened": "2026-04-05T23:49:18.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UIGoBack.cs",
-              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIGoBack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIGoBack.cs",
-              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\UIGoBack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIGoBack.cs",
+              "DocumentIndex": 1,
+              "Title": "InstantiateDialogue.cs",
+              "DocumentMoniker": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
+              "ToolTip": "D:\\UnityProgect\\UralGameJam\\Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\InstantiateDialogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T19:58:38.887Z"
+              "WhenOpened": "2026-04-05T18:51:42.821Z",
+              "EditorCaption": ""
             }
           ]
         }
