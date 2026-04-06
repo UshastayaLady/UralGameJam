@@ -20,20 +20,11 @@ public class TriggerRune : SetActivTrigger
 
     private void CompleteRune()
     {
-        //StartCoroutine(CompleteRuneCoroutine());
+        DeactiveNotify();
         _animatorObject.enabled = false;
         base.ActivationInteractiveZone();
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
         SpellDrawer.Instance.OnCompleteRune -= CompleteRune;
-        gameObject.SetActive(false);
-    }
-
-    private IEnumerator CompleteRuneCoroutine()
-    {
-        _animatorObject.enabled = false;
-        yield return new WaitForSeconds(0.3f);
-        base.ActivationInteractiveZone();
-        InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
         gameObject.SetActive(false);
     }
 }
