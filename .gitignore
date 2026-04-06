@@ -6,10 +6,11 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-# Package cache (иногда бывает внутри Library)
+# Package cache
 [Ll]ibrary/[Pp]ackage[Cc]ache/
 
 # IDE/OS
+.vs/
 .vscode/
 .idea/
 *.csproj
