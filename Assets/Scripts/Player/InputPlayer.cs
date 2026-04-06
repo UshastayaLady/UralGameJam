@@ -20,6 +20,7 @@ public class InputPlayer : MonoBehaviour
         if (!_freez)
             DownButtonMove();
         DownButtonInteractiveZone();
+            
     }
     private void FixedUpdate()
     {
