@@ -151,32 +151,32 @@ public class PuzzleManager : MonoBehaviour
         Debug.Log("Успех");
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.matrix = transform.localToWorldMatrix;
-        Gizmos.color = Color.red;
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.matrix = transform.localToWorldMatrix;
+    //    Gizmos.color = Color.red;
 
-        for (int y = 0; y <= _height; y++)
-        {
-            Gizmos.DrawLine(new Vector3(0, y * _cellSize, 0), new Vector3(_width * _cellSize, y * _cellSize, 0));
-        }
+    //    for (int y = 0; y <= _height; y++)
+    //    {
+    //        Gizmos.DrawLine(new Vector3(0, y * _cellSize, 0), new Vector3(_width * _cellSize, y * _cellSize, 0));
+    //    }
 
-        for (int x = 0; x <= _width; x++)
-        {
-            Gizmos.DrawLine(new Vector3(x * _cellSize, 0, 0), new Vector3(x * _cellSize, _height * _cellSize, 0));
+    //    for (int x = 0; x <= _width; x++)
+    //    {
+    //        Gizmos.DrawLine(new Vector3(x * _cellSize, 0, 0), new Vector3(x * _cellSize, _height * _cellSize, 0));
             
-        }
+    //    }
 
-        if(_grid != null)
-        {
-            for (int x = 0; x < _width; x++)
-            {
-                for (int y = 0; y < _height; y++)
-                {
-                    Handles.Label(_grid[x, y].WorldPos, _grid[x, y].CorrectID.ToString(), new GUIStyle());
-                }
-            }
-        }
+    //    if(_grid != null)
+    //    {
+    //        for (int x = 0; x < _width; x++)
+    //        {
+    //            for (int y = 0; y < _height; y++)
+    //            {
+    //                Handles.Label(_grid[x, y].WorldPos, _grid[x, y].CorrectID.ToString(), new GUIStyle());
+    //            }
+    //        }
+    //    }
         
-    }
+    //}
 }

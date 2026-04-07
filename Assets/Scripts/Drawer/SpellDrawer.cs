@@ -35,6 +35,7 @@ public class SpellDrawer : MonoBehaviour
     public event Action<float> OnDrawTimer;
     public event Action<float> OnFinishDrawing;
     public event Action<float> OnContinuingDrawing;
+    public event Action<string> OnWon;
     public event Action OnCompleteRune;
     public event Action OnInitialized;
 
@@ -47,6 +48,7 @@ public class SpellDrawer : MonoBehaviour
     private RectTransform _canvasRect;
     private List<Vector2> _patternPoints = new List<Vector2>();
     private List<bool> _patternPointHit = new List<bool>();
+
 
     public float SuccessThreshold => _successThreshold;
 
@@ -483,7 +485,7 @@ public class SpellDrawer : MonoBehaviour
     void FinishDrawing()
     {
         StopAllCoroutines();
-        
+
         _isDrawing = false;
 
         if (_drawnPoints.Count < 5)
@@ -496,15 +498,22 @@ public class SpellDrawer : MonoBehaviour
         int hitCount = _patternPointHit.Count(h => h == true);
         float accuracy = (float)hitCount / _patternPoints.Count * 100f;
 
-        OnFinishDrawing?.Invoke(accuracy);
+
 
         Debug.Log($"Длина: {_currentDrawLength:F1}/{_maxDrawLength}");
         Debug.Log($"Попало в {hitCount} из {_patternPoints.Count} точек ({accuracy:F1}%)");
 
         if (accuracy >= _successThreshold)
+        {            
             CompleteRune();
+            OnWon?.Invoke($"{accuracy:F1}%/{_successThreshold}%");
+        }
         else
+        {
+            OnFinishDrawing?.Invoke(accuracy);
             FailSpell();
+        }
+            
     }
 
     void FailSpell()
@@ -514,7 +523,8 @@ public class SpellDrawer : MonoBehaviour
     }
 
     void CompleteRune()
-    {  
+    {
+
         Debug.Log($"Заклинание {_currentRune} успешно!");
         StartCoroutine(FlashGreen());
         OnCompleteRune?.Invoke();

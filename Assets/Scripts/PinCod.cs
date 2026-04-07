@@ -18,12 +18,17 @@ public class PinCod : MonoBehaviour
             if (_pincode.Equals(_writePin))
             {
                 _activeObject.SetActive(true);
-                enabled = false;
             }
             else 
             {
                 _writePin = "";
             }
         }        
+    }
+
+    private void OnDisable()
+    {
+        _writePin = null;
+        _text.text = "";
     }
 }

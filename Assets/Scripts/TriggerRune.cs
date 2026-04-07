@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class TriggerRune : SetActivTrigger
@@ -22,7 +21,7 @@ public class TriggerRune : SetActivTrigger
     {
         DeactiveNotify();
         _animatorObject.enabled = false;
-        base.ActivationInteractiveZone();
+        //base.ActivationInteractiveZone();
         InputPlayer.launchedInteractiveZone -= ActivationInteractiveZone;
         SpellDrawer.Instance.OnCompleteRune -= CompleteRune;
         gameObject.SetActive(false);
